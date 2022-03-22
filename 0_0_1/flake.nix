@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-plz-0_0_1.flake = false;
+  inputs.src-plz-0_0_1.ref   = "refs/tags/0.0.1";
   inputs.src-plz-0_0_1.owner = "juancarlospaco";
-  inputs.src-plz-0_0_1.ref   = "0_0_1";
   inputs.src-plz-0_0_1.repo  = "nim-pypi";
   inputs.src-plz-0_0_1.type  = "github";
   

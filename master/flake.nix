@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-plz-master.flake = false;
+  inputs.src-plz-master.ref   = "refs/heads/master";
   inputs.src-plz-master.owner = "juancarlospaco";
-  inputs.src-plz-master.ref   = "master";
   inputs.src-plz-master.repo  = "nim-pypi";
   inputs.src-plz-master.type  = "github";
   
