@@ -26,45 +26,18 @@
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
-        "libarchibi-master": "libarchibi-master",
         "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648107698,
-        "narHash": "sha256-CE1pHAQDcOMLrLEMRccMZtPsqBFux3CmDFkIiAicviU=",
-        "owner": "nim-nix-pkgs",
-        "repo": "libarchibi",
-        "rev": "21ebc2790026fcaa9d229f0d2268018892ac8b5f",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "libarchibi",
-        "type": "github"
-      }
-    },
-    "libarchibi-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "libarchibi",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "libarchibi",
           "nixpkgs"
         ],
         "src-libarchibi-master": "src-libarchibi-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648107698,
-        "narHash": "sha256-CE1pHAQDcOMLrLEMRccMZtPsqBFux3CmDFkIiAicviU=",
+        "lastModified": 1648163223,
+        "narHash": "sha256-xnrxXdYpAnFBPFD3fWMJux0q/ggYqlk0bQ2311YfqbQ=",
         "owner": "nim-nix-pkgs",
         "repo": "libarchibi",
-        "rev": "21ebc2790026fcaa9d229f0d2268018892ac8b5f",
+        "rev": "4f4c7ce977f134766597ee52195d0f77f2296663",
         "type": "github"
       },
       "original": {
@@ -94,42 +67,15 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "requirementstxt-master": "requirementstxt-master"
-      },
-      "locked": {
-        "lastModified": 1648108040,
-        "narHash": "sha256-GobD8MFeEvqo4xj3WY+msNnTxfN7sq3fHZ1RA6G04JE=",
-        "owner": "nim-nix-pkgs",
-        "repo": "requirementstxt",
-        "rev": "7d9d9ac2810ce3f56fa6172e49e461bb49c8de1b",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "requirementstxt",
-        "type": "github"
-      }
-    },
-    "requirementstxt-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "requirementstxt",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "requirementstxt",
-          "nixpkgs"
-        ],
         "src-requirementstxt-master": "src-requirementstxt-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648108040,
-        "narHash": "sha256-GobD8MFeEvqo4xj3WY+msNnTxfN7sq3fHZ1RA6G04JE=",
+        "lastModified": 1648163535,
+        "narHash": "sha256-tHS+0biuJyy6ts3GlohhOD+F6ovO6jYy2Gmn5hN+eOE=",
         "owner": "nim-nix-pkgs",
         "repo": "requirementstxt",
-        "rev": "7d9d9ac2810ce3f56fa6172e49e461bb49c8de1b",
+        "rev": "7a8411a570155ea726cb06d9206e1fb28ed5c931",
         "type": "github"
       },
       "original": {
