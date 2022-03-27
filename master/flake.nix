@@ -11,6 +11,7 @@
   inputs.src-plz-master.ref   = "refs/heads/master";
   inputs.src-plz-master.owner = "juancarlospaco";
   inputs.src-plz-master.repo  = "nim-pypi";
+  inputs.src-plz-master.dir   = "";
   inputs.src-plz-master.type  = "github";
   
   inputs."requirementstxt".owner = "nim-nix-pkgs";
