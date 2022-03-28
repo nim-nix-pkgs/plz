@@ -11,7 +11,6 @@
   inputs.src-plz-init.ref   = "refs/tags/init";
   inputs.src-plz-init.owner = "juancarlospaco";
   inputs.src-plz-init.repo  = "nim-pypi";
-  inputs.src-plz-init.dir   = "";
   inputs.src-plz-init.type  = "github";
   
   inputs."nimarchive".owner = "nim-nix-pkgs";
