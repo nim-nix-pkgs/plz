@@ -1,0 +1,41 @@
+name: Build
+
+on: [push]
+#on:
+#  release:
+#    types: [created]
+
+jobs:
+  build:
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [ubuntu-latest, macos-latest, windows-latest]
+    name: ${{ matrix.platform }}
+    runs-on: ${{ matrix.platform }}
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+
+    - uses: jiro4989/setup-nim-action@v1
+      with:
+        nim-version: '1.4.6'
+        no-color: true
+
+    - name: Nimble Install dependencies
+      run: |
+        nimble -y refresh
+        nimble -y install requirementstxt
+
+    - name: Compile Debug  # Compile and run to check if its working
+      run: nim c -d:ssl --gc:arc --out:plz "src/plz.nim"
+
+    - name: Run  # Compile and run to check if its working
+      if: runner.os == 'Linux' || runner.os == 'macOS'
+      run: |
+        ./plz --help
+        ./plz --version
+        ./plz --dump
+        # ./plz latestversion pip
+        # ./plz install setuptools twine>=3.2.0 pip==20.1.1
