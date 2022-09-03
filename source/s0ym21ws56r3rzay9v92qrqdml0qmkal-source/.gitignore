@@ -1,6 +1,0 @@
-*.c
-*.h
-*.o
-*.log
-src/pypi
-.vscode/

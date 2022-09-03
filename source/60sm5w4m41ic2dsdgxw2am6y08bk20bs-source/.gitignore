@@ -1,8 +1,0 @@
-*.c
-*.h
-*.o
-*.log
-.vscode/
-src/*.txt
-requirements.txt
-*.out
